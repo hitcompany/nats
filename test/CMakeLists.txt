@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.10)
 
-enable_testing()
+#enable_testing()
 
-if(NOT BUILD_TESTING)
+#if(NOT BUILD_TESTING)
   return()
-endif()
+#endif()
 
 if(NOT NATS_BUILD_LIB_STATIC)
   MESSAGE(FATAL_ERROR
